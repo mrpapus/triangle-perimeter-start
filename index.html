@@ -23,12 +23,32 @@
     </p>
 
     <hr />
-    <h1>enter the vertices of the triangle and click "Calculate" to determine the side lengths and perimeter of the triangle.</h1>
+    <p>Enter the vertices of the triangle and click "Calculate" to determine the side lengths and perimeter of the triangle.</p>
+   
+   <!-- inputs -->
+    <p id="vertex">
+   <span id="bold">Vertex A</span> - xA: <input id="xA" type="number" /> yA: <input id="yA" type="number" />
+  </p>
+  <p id="vertex">
+    <span id="bold">Vertex B</span> - xB: <input id="xB" type="number" /> yB: <input id="yB" type="number" />
+  </p>
+  <p id="vertex">
+    <span id="bold">Vertex C</span> - xC: <input id="xC" type="number" /> yC: <input id="yC" type="number" />
+  </p>
+   
     <hr/>
-    <button>Calculate</button>
-    <h1>AB = ----</h1>
-    <h1>AC = ----</h1>
-    <h1>BC = ----</h1>
-    <h1>Perimeter of ABC = ----</h1>
+
+   
+    <!-- output button -->
+    <button id="buttonCalc">CALCULATE</button>
+   
+   
+   
+    <!-- display ouput -->
+    <p id="bottom">
+    AB = <span id="ABlength">----</span><br>
+    AC = <span id="AClength">----</span><br>
+    BC = <span id="BClength">----</span><br>
+    Perimeter of ABC = <span id="perimeter">----</span></p>
   </body>
 </html>
